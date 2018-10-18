@@ -17,7 +17,7 @@ class Abyss extends Component {
             Projectiles, enemy AI, and some collisions is handled server-side through socket.io
             Client-side rendering and inputs is handled through a combination of socket.io and Phaser
             <br /><br />
-            This was a solo project on creating the framework for a massively multiplayer game and handling real-time interaction between a multitude of players.
+            This was a solo project on creating the framework for a massively multiplayer game and handling interaction between clients.
             <br /><br />
         </div>
       </div>
