@@ -28,8 +28,8 @@ class Nav extends Component {
             <div className='subElement'></div>
           <a href='#Miscellania' className='navlink'><div className='navElement'>Miscellania</div></a>
           <div className='iconGroup'>
-            <a href='https://www.linkedin.com/in/vincent-nguyen-342015164/' target='_blank' rel="noopener noreferrer"><img src='\assets\images\In-2CRev-34px-R.png' alt='linkedin'></img></a>
-            <a href='https://github.com/vnguye51/' target='_blank' rel="noopener noreferrer"><img src='\assets\images\GitHub-Mark-32px.png' alt='github'></img></a>
+            <a href='https://www.linkedin.com/in/vincent-nguyen-342015164/' target='_blank' rel="noopener noreferrer"><img src='assets\images\In-2CRev-34px-R.png' alt='linkedin'></img></a>
+            <a href='https://github.com/vnguye51/' target='_blank' rel="noopener noreferrer"><img src='assets\images\GitHub-Mark-32px.png' alt='github'></img></a>
             <span id='email'>vincenttsnguyen@gmail.com</span>
           </div>
         </div>
