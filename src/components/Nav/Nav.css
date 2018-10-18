@@ -1,3 +1,8 @@
+#wrapper{
+    position: fixed;
+    z-index: 1
+}
+
 #navBar{
     position: fixed;
     padding: 20px 40px 20px 40px;
@@ -8,6 +13,17 @@
     height: 100%;
     box-shadow:0px 5px 10px grey;  
 }
+
+.hide{
+    left: -240px;
+    transition: left 0.3s linear;
+}
+
+.show{
+    left: 0px;
+    transition: left 0.3s linear;
+}
+
 .fa-bars{
     color: #AD9C70;
   }
@@ -15,11 +31,21 @@
     cursor: pointer;
     color: white;
 }
+.fa-circle{
+    position: relative;
+    box-sizing: border-box;
+    font-size: 8px;
+    bottom: 2px;
+}
+
 .navElement{
     color: #AD9C70;
 }
 .subElement{
+    padding-left: 12px;
+    font-size: 16px;
     color: #AD9C70;
+    line-height: 32px;
 }
 .navElement:hover{
     color: white;
@@ -41,4 +67,14 @@
     position: absolute;
     bottom: 48px;
     left: 10px;
-  }
+}
+
+.fixed{
+    font-size: 24px;
+    position: fixed;
+    left: 36px;
+    top: 32px;
+    background-color: #00352D;
+    padding: 4px;
+}
+

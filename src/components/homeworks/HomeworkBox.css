@@ -1,0 +1,15 @@
+.label{position: relative;
+    width: 240px;
+    left: 0px;
+    bottom: -220px;
+    text-align: center;
+    padding: 2px 0px;
+    margin: 0px;
+    background-color: #00352D;
+    color: #AD9C70;
+    font-size: 20px;
+}
+
+.box > a{
+    text-decoration: none;
+}
