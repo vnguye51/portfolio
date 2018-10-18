@@ -1,0 +1,44 @@
+#navBar{
+    position: fixed;
+    padding: 20px 40px 20px 40px;
+    font-size: 24px;
+    line-height: 48px;
+    background-color: #00352D;
+    border-right: 4px solid #AD9C70;
+    height: 100%;
+    box-shadow:0px 5px 10px grey;  
+}
+.fa-bars{
+    color: #AD9C70;
+  }
+.fa-bars:hover{
+    cursor: pointer;
+    color: white;
+}
+.navElement{
+    color: #AD9C70;
+}
+.subElement{
+    color: #AD9C70;
+}
+.navElement:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.subElement:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#email{
+    color: #AD9C70;
+    font-size: 12px;
+}
+
+.iconGroup{
+    line-height: 12px;
+    position: absolute;
+    bottom: 48px;
+    left: 10px;
+  }

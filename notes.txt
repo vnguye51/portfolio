@@ -1,0 +1,3 @@
+Single page scrolling app
+clicking on sidebar elements scrolls down to the corresponding project
+when scrolling into into certain sections that section will highlight
