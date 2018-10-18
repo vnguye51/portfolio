@@ -49,17 +49,14 @@ body{
   font-size: 18px;
 }
 
-.projectImgBox{
-  height: 400px;
- 
-}
+
 
 .projectImg{
   box-sizing: border-box;
-  height: 100%;
-  width: 100%;
+  max-width: 60%;
+  min-width: 280px;
   border: 3px solid #AD9C70;
-
+  /* min-width: 50%; */
 }
 
 .navlink{
@@ -68,12 +65,9 @@ body{
 
 @media (max-width: 600px){
   .projectImg{
-    height: 300px;
-    width: 300px;
+    width: 280px;
   }
-  .projectImgBox{
-    height: 300px;
-  }
+
   #main{
     padding: 40px 5%;
   }
