@@ -11,7 +11,7 @@ class ArtCollective extends Component {
         <div className = 'projectImgBox'><img  img className='projectImg' src='assets/images/ArtCollective.png' alt='Abyss'></img></div>
         <br />
         <div className = 'bodyText'>
-            ArtCollective is a website where users con join collectives, where they can upload images, pictures, and audio based on common interests.
+            ArtCollective is a website where users can join collectives, where they can upload images, pictures, and audio based on common interests.
             This is sort of a deviantart clone. Users can also comment and discuss submissions.
             <br /><br />
             This project showcases the power of relational databases by linking together the many-to-many relationships between users and their collectives.
