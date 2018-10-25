@@ -8,6 +8,7 @@ class VGNexus extends Component {
       <div id='VGNexus'>
         <div className = 'header2'>VGNexus <span class='tags'>(MySQL, Express, React, Node.js, Socket.io)</span></div>
         <div className = 'projectLink'><a href='https://vgnexus.com/' target='_blank' rel="noopener noreferrer">https://vgnexus.com/</a></div>
+        <div className = 'projectLink'><a href='https://github.com/JackRa88it/VG-Nexus' target='_blank' rel="noopener noreferrer">https://github.com/JackRa88it/VG-Nexus</a></div>
         <br />
         <div className = 'projectImgBox'><img img className='projectImg' src='assets/images/VGNexus.png' alt='VGNexus'></img></div>
         <br />

@@ -7,6 +7,7 @@ class Abyss extends Component {
       <div id='Abyss'>
         <div className = 'header2'>Abyss <span class='tags'>(Express, Node.js, Socket.io, Phaser)</span></div>
         <div className = 'projectLink'><a href='https://journeyabyss.com' target='_blank' rel="noopener noreferrer">https://journeyabyss.com</a></div>
+        <div className = 'projectLink'><a href='https://github.com/vnguye51/Multiplayer-Game' target='_blank' rel="noopener noreferrer">https://github.com/vnguye51/Multiplayer-Game</a></div>
         <br />
         <div className = 'projectImgBox'><img img className='projectImg' src='assets/images/Abyss.png' alt='Abyss'></img></div>
         <br />

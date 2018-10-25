@@ -7,6 +7,7 @@ class ArtCollective extends Component {
       <div id='ArtCollective'>
         <div className = 'header2'>ArtCollective <span class='tags'>(Express, Node.js, Handlebars, MySQL)</span></div>
         <div className = 'projectLink'><a href='https://stormy-brushlands-10294.herokuapp.com/' target='_blank' rel="noopener noreferrer">https://stormy-brushlands-10294.herokuapp.com/</a></div>
+        <div className = 'projectLink'><a href='https://github.com/DinhDo2312/ArtCollective' target='_blank' rel="noopener noreferrer">https://github.com/DinhDo2312/ArtCollective</a></div>
         <br />
         <div className = 'projectImgBox'><img  img className='projectImg' src='assets/images/ArtCollective.png' alt='Abyss'></img></div>
         <br />

@@ -5,6 +5,15 @@ class About extends Component {
   render() {
     return (
       <div id='About'>
+        <div style={{fontSize: '48px', fontWeight: 'bold', textAlign: 'center'}}>Vincent Nguyen</div>
+        <br />
+        <div style={{fontSize: '18px', textAlign: 'center'}}>vincenttsnguyen@gmail.com | (925) 270-8307</div>
+        <br />
+        <div style={{textAlign: 'center'}}>
+        <a href='https://www.linkedin.com/in/vincent-nguyen-342015164/' target='_blank' rel="noopener noreferrer"><img src='assets\images\In-2CRev-34px-R.png' alt='linkedin'></img></a>
+        <a href='https://github.com/vnguye51/' target='_blank' rel="noopener noreferrer"><img src='assets\images\GitHub-Mark-32px.png' alt='github'></img></a>
+        </div>
+        <br />
         <div className = 'header1'>About</div>
         <div className = 'bodyText'>
         {/* <img src='/assets/images/self-photo.jpg' alt='selfphoto' id='selfphoto'></img> */}

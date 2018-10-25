@@ -3,7 +3,7 @@ import './Nav.css';
 
 class Nav extends Component {
   state= {
-    hidden: true
+    hidden: false
   }
   hidenav = () => {
     this.setState({hidden: true})
