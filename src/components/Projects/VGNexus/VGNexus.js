@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './VGNexus.css';
-import { Certificate } from 'crypto';
+import Carousel from '../../Carousel/Carousel'
 
 class VGNexus extends Component {
   render() {
@@ -10,7 +10,7 @@ class VGNexus extends Component {
         <div className = 'projectLink'><a href='https://vgnexus.com/' target='_blank' rel="noopener noreferrer">https://vgnexus.com/</a></div>
         <div className = 'projectLink'><a href='https://github.com/JackRa88it/VG-Nexus' target='_blank' rel="noopener noreferrer">https://github.com/JackRa88it/VG-Nexus</a></div>
         <br />
-        <div className = 'projectImgBox'><img img className='projectImg' src='assets/images/VGNexus.png' alt='VGNexus'></img></div>
+        <Carousel carouselId = '0' images = {['assets/images/VGNexus.png','assets/images/VGNexus2.png','assets/images/VGNexus3.png','assets/images/VGNexus4.png','assets/images/VGNexus5.png']}/>
         <br />
         <div className = 'bodyText'>
           A hub where browser games can be shared and deployed. Includes live-chat for each game, forums, upvote sysyem, and a customizable user profile.

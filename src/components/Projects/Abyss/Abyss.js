@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Abyss.css';
+import Carousel from '../../Carousel/Carousel'
 
 class Abyss extends Component {
   render() {
@@ -9,7 +10,7 @@ class Abyss extends Component {
         <div className = 'projectLink'><a href='https://journeyabyss.com' target='_blank' rel="noopener noreferrer">https://journeyabyss.com</a></div>
         <div className = 'projectLink'><a href='https://github.com/vnguye51/Multiplayer-Game' target='_blank' rel="noopener noreferrer">https://github.com/vnguye51/Multiplayer-Game</a></div>
         <br />
-        <div className = 'projectImgBox'><img img className='projectImg' src='assets/images/Abyss.png' alt='Abyss'></img></div>
+        <Carousel images = {['assets/images/Abyss.png','assets/images/Abyss2.png','assets/images/Abyss3.png','assets/images/Abyss4.png','assets/images/Abyss5.png']}/>
         <br />
         <div className = 'bodyText'>
             Abyss is a multiplayer game where progress is persistent between all players around the world. 

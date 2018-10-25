@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './ArtCollective.css';
+import Carousel from '../../Carousel/Carousel'
+
 
 class ArtCollective extends Component {
   render() {
@@ -9,7 +11,7 @@ class ArtCollective extends Component {
         <div className = 'projectLink'><a href='https://stormy-brushlands-10294.herokuapp.com/' target='_blank' rel="noopener noreferrer">https://stormy-brushlands-10294.herokuapp.com/</a></div>
         <div className = 'projectLink'><a href='https://github.com/DinhDo2312/ArtCollective' target='_blank' rel="noopener noreferrer">https://github.com/DinhDo2312/ArtCollective</a></div>
         <br />
-        <div className = 'projectImgBox'><img  img className='projectImg' src='assets/images/ArtCollective.png' alt='Abyss'></img></div>
+        <Carousel carouselId = '3' images = {['assets/images/Art1.png','assets/images/Art2.png']}/>
         <br />
         <div className = 'bodyText'>
             ArtCollective is a website where users can join collectives, where they can upload images, pictures, and audio based on common interests.
