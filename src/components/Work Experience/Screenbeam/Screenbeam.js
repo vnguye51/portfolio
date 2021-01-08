@@ -5,6 +5,7 @@ class Screenbeam extends Component {
     return (
       <div id='Screenbeam'>
         <div className = 'header2'>Web Developer at Screenbeam <span class='tags'>(SQL, C#, .NET Core, React, SignalR, Websocket)</span></div>
+        <div className = 'bodyText'>2/11/ 2019 - Present</div>
         <br />
         <div className = 'projectLink'><a href='https://www.screenbeam.com/' target='_blank' rel="noopener noreferrer">https://www.screenbeam.com/</a></div>
         <div className = 'bodyText'>
