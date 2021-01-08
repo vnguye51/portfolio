@@ -19,6 +19,7 @@ class Nav extends Component {
         <div id='navBar' class = {this.state.hidden ? "hide" : "show"}>
           <i className="fas fa-bars" onClick={this.hidenav}></i>
           <a href='#About' className='navlink'><div  className='navElement'>About</div></a>
+          <a href='#WorkExperience' className='navlink'><div className='navElement'>Work Experience</div></a>
           <a href='#Projects' className='navlink'><div className='navElement'>Projects</div></a>
             <a href='#VGNexus' className='navlink'><div className='subElement'><i class="fas fa-circle"></i> VGNexus</div></a>
             <a href='#Abyss' className='navlink'><div className='subElement'><i class="fas fa-circle"></i> Abyss</div></a>
