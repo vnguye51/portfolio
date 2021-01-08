@@ -7,7 +7,7 @@ class VGNexus extends Component {
     return (
       <div id='VGNexus'>
         <div className = 'header2'>VGNexus <span class='tags'>(MySQL, Express, React, Node.js, Socket.io)</span></div>
-        <div className = 'projectLink'><a href='https://vgnexus.com/' target='_blank' rel="noopener noreferrer">https://vgnexus.com/</a></div>
+        {/* <div className = 'projectLink'><a href='https://vgnexus.com/' target='_blank' rel="noopener noreferrer">https://vgnexus.com/</a></div> */}
         <div className = 'projectLink'><a href='https://github.com/JackRa88it/VG-Nexus' target='_blank' rel="noopener noreferrer">https://github.com/JackRa88it/VG-Nexus</a></div>
         <br />
         <Carousel carouselId = '0' images = {['assets/images/VGNexus.png','assets/images/VGNexus2.png','assets/images/VGNexus3.png','assets/images/VGNexus4.png','assets/images/VGNexus5.png']}/>

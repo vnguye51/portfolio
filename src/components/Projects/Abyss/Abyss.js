@@ -7,7 +7,7 @@ class Abyss extends Component {
     return (
       <div id='Abyss'>
         <div className = 'header2'>Abyss <span class='tags'>(Express, Node.js, Socket.io, Phaser)</span></div>
-        <div className = 'projectLink'><a href='https://journeyabyss.com' target='_blank' rel="noopener noreferrer">https://journeyabyss.com</a></div>
+        {/* <div className = 'projectLink'><a href='https://journeyabyss.com' target='_blank' rel="noopener noreferrer">https://journeyabyss.com</a></div> */}
         <div className = 'projectLink'><a href='https://github.com/vnguye51/Multiplayer-Game' target='_blank' rel="noopener noreferrer">https://github.com/vnguye51/Multiplayer-Game</a></div>
         <br />
         <Carousel images = {['assets/images/Abyss.png','assets/images/Abyss2.png','assets/images/Abyss3.png','assets/images/Abyss4.png','assets/images/Abyss5.png']}/>

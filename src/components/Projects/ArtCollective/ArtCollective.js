@@ -8,7 +8,7 @@ class ArtCollective extends Component {
     return (
       <div id='ArtCollective'>
         <div className = 'header2'>ArtCollective <span class='tags'>(Express, Node.js, Handlebars, MySQL)</span></div>
-        <div className = 'projectLink'><a href='https://stormy-brushlands-10294.herokuapp.com/' target='_blank' rel="noopener noreferrer">https://stormy-brushlands-10294.herokuapp.com/</a></div>
+        {/* <div className = 'projectLink'><a href='https://stormy-brushlands-10294.herokuapp.com/' target='_blank' rel="noopener noreferrer">https://stormy-brushlands-10294.herokuapp.com/</a></div> */}
         <div className = 'projectLink'><a href='https://github.com/DinhDo2312/ArtCollective' target='_blank' rel="noopener noreferrer">https://github.com/DinhDo2312/ArtCollective</a></div>
         <br />
         <Carousel carouselId = '3' images = {['assets/images/Art1.png','assets/images/Art2.png']}/>
